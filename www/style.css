@@ -3,6 +3,9 @@
 
 body{
     margin: 0%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 body *{
     box-sizing: border-box;
@@ -59,4 +62,16 @@ nav li:hover,#logo:hover{
 nav ul a{
     text-decoration: none;
     color: black;
+}
+/* MAIN */
+main{
+    flex: 1;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #fa9696;
+    padding: 1rem;
+    justify-content: space-around;
 }
