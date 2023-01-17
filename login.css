@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url('illu.jpg');
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.container-form{
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+form > div{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
