@@ -1,3 +1,45 @@
+
 .weird_link{
     color: rgb(255, 0, 221);
+}
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    background-color: #fa9696;
+    padding: 1rem;
+}
+
+nav{
+    margin: auto;
+    width: 70%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #fa9696;
+    padding: 1rem;
+    justify-content: space-around;
 }
