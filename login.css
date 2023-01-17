@@ -12,6 +12,7 @@ body{
 h1{
     text-align: center;
     color: white;
+    font-size: 3rem;
 }
 .container-form{
     margin: auto;
@@ -22,7 +23,7 @@ form{
     padding: 2rem;
     width: 40%;
     margin: auto;
-    font-size: larger;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -36,10 +37,42 @@ form > div{
     display: flex;
     justify-content: space-between;
     width: 60%;
+    align-items: center;
 }
-input[type="submit"]{
+input{
     font-family: inherit;
-    padding: 1rem;
+    padding: 0.3rem;
     font-size: larger;
+    border-radius: 5px;
+}
+input:last-of-type{
+    cursor: pointer;
+}
+input:last-of-type:hover{
+    background-color: red;
+}
+@keyframes avanzar {
+    0%{
+        left: 0;
+    }
+    25%{
+        left: 400px;
+    }
+    50%{
+        left: 900px;
+    }
+    75%{
+        left: 1300px;
+    }
+    100%{
+        left: 1500px;
+    }
+}
 
+img{
+    width: 15%;
+    position: absolute;
+    animation-name: avanzar;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
 }
