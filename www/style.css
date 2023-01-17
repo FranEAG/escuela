@@ -15,7 +15,12 @@ nav{
     margin: auto;
     width: 70%;
 }
-
+#m1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 ul{
     display: flex;
     justify-content: space-around;
@@ -32,6 +37,24 @@ main{
     flex: 1;
 }
 
+.notis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.notis h1{
+    margin: 0;
+}
+
+.notis p{
+    margin: 0;
+}
+
+.notis a{
+    margin: 0;
+}
 footer{
     display: flex;
     flex-direction: row;
